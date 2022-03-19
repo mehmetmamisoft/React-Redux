@@ -15,7 +15,7 @@ const TextInput = ({ name, label, onChange, placeHolder, value, error }) => {
   //jsx yaz
   return (
     <div className={wrapperClass}>
-      <label htmlFor={name}></label>
+      <label htmlFor={name}>{label}</label>
       <div className="field">
         <input
           type="text"

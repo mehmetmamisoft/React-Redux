@@ -58,7 +58,7 @@ export async function handleResponse(response) {
 }
 
 export function handleError(error) {
-  console.error("Bşr hata oluştı");
+  console.error("Bir hata oluştı");
   throw error;
 }
 
